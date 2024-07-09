@@ -12,10 +12,12 @@ body {
     padding: 0;
 }
 
+/* banner-1-style-start */
 .banner-top-contain {
     display: flex;
     justify-content: space-around;
     margin: 38px 0;
+
 }
 
 .banner-top-containh1 {
@@ -30,13 +32,14 @@ body {
     padding: 17px 24px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .box-container {
     background-image: url(assets/Hero-bg.png);
     height: 652px;
     border: 1px dashed;
+    margin-bottom: 70px;
 }
 
 .container-box {
@@ -45,18 +48,15 @@ body {
     justify-content: flex-start;
     align-items: center;
     margin: 157px 221px;
-    /* gap: 40px; */
     margin-top: 26px;
     position: static;
 }
 
 .container-box h5 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 30px;
     font-weight: 800;
-    line-height: 68px;
-    letter-spacing: 0%;
+    line-height: 50px;
     text-align: center;
 }
 
@@ -72,7 +72,64 @@ body {
 .container-box button {
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    color:rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
     padding: 21px 24px;
     margin: 24px 0;
 }
+
+/* banner-1-style-end */
+
+/* banner-2-style-start */
+.banner-2-container {
+    width: 980px;
+    margin: 30px auto;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+.box-container-2 {
+    margin: 40px 98px;
+}
+.text-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+p {
+    color: rgba(13, 19, 33, 0.654);
+}
+.similar-box-design {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 99, 71, 0.558);
+    border-radius: 20px;
+}
+.box {
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box button {
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+   padding: 10px 15px;
+   margin-right: 325px;
+}
+/* banner-2-style-end */
