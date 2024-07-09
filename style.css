@@ -62,11 +62,8 @@ body {
 
 .container-box p {
     font-size: 16px;
-    font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
-    color: rgb(13, 19, 33);
 }
 
 .container-box button {
@@ -83,10 +80,12 @@ body {
 .banner-2-container {
     width: 980px;
     margin: 30px auto;
-    background-color: rgba(13, 19, 33, 0.02);
+    background-color: rgba(27, 56, 122, 0.02);
 }
 .box-container-2 {
     margin: 40px 98px;
+    padding-top: 40px;
+
 }
 .text-container-1 {
     display: flex;
@@ -137,8 +136,10 @@ p {
 /* How I will use css property in video link------start
 banner-content-3 */
 .banner-content-3{
+
     margin-top: 30px;
     width: 980px;
+    margin: 0 auto;
     border: 3px solid tomato;
 
 }
@@ -157,4 +158,43 @@ banner-content-3 */
     background-color: rgba(173, 183, 192, 0.592);
     padding: 50px 20px;
     border-radius: 20px;
+}
+/* banner-4-style */
+.banner-4-container{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.text-target{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.parent{
+    margin-top: 20px;
+    display: flex;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    width: 23%;
+    margin: 0 auto;
+    padding: 40px;
+}
+.child img{
+    width: 30px;
+    height: 30px;
+}
+.child1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.child2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.child3{
+    background-color: rgba(255, 223, 0, 0.05);
 }
