@@ -80,7 +80,9 @@ body {
 .banner-2-container {
     width: 980px;
     margin: 30px auto;
-    background-color: rgba(27, 56, 122, 0.02);
+    background-color: rgba(215, 217, 224, 0.231);
+    border-radius: 15px;
+    padding-bottom: 5px;
 }
 .box-container-2 {
     margin: 40px 98px;
@@ -107,7 +109,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 99, 71, 0.558);
+    background-color:rgba(255, 255, 255, 0.691);
     border-radius: 20px;
 }
 .box {
@@ -136,12 +138,9 @@ p {
 /* How I will use css property in video link------start
 banner-content-3 */
 .banner-content-3{
-
-    margin-top: 30px;
     width: 980px;
     margin: 0 auto;
-    border: 3px solid tomato;
-
+    margin-top: 80px;
 }
 .links-tittle{
     display: flex;
@@ -162,8 +161,8 @@ banner-content-3 */
 /* banner-4-style */
 .banner-4-container{
     width: 980px;
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: 80px auto;
+    margin-top: 80px;
 }
 .text-target{
     display: flex;
@@ -173,7 +172,7 @@ banner-content-3 */
     text-align: center;
 }
 .parent{
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
 }
 .child{
@@ -184,6 +183,7 @@ banner-content-3 */
     width: 23%;
     margin: 0 auto;
     padding: 40px;
+    border-radius: 10px;
 }
 .child img{
     width: 30px;
@@ -197,4 +197,49 @@ banner-content-3 */
 }
 .child3{
     background-color: rgba(255, 223, 0, 0.05);
+}
+/* footer section start */
+.last-section{
+    width: 980px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: url(assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+.footer-text{
+    width: 70%;
+    margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 100px;
+}
+.footer-text h1 {
+    color: rgb(255, 255, 255);
+}
+.footer-text p{
+    color: rgba(255, 255, 255, 0.759);
+}
+.inner-input{
+    display: flex;
+}
+.inner-input input{
+    width: 440px;
+    border-radius: 10px;
+    border: none;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.inner-input button{
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+
 }
