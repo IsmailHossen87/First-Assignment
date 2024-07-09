@@ -133,3 +133,28 @@ p {
    margin-right: 325px;
 }
 /* banner-2-style-end */
+
+/* How I will use css property in video link------start
+banner-content-3 */
+.banner-content-3{
+    margin-top: 30px;
+    width: 980px;
+    border: 3px solid tomato;
+
+}
+.links-tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.resource-of-video{
+    display: flex;
+    justify-content: center;
+    margin: 30px 50px;
+    background-color: rgba(173, 183, 192, 0.592);
+    padding: 50px 20px;
+    border-radius: 20px;
+}
